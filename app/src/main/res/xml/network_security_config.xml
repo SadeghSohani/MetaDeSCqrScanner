@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">http://185.252.29.19:4000/</domain>
+        <domain includeSubdomains="true">185.252.29.19</domain>
+        <domain includeSubdomains="true">http://192.168.43.85:4000/</domain>
+        <domain includeSubdomains="true">192.168.43.85</domain>
+        <domain includeSubdomains="true">http://10.0.2.2:4000/</domain>
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <domain includeSubdomains="true">http://116.203.61.236:4000/</domain>
+        <domain includeSubdomains="true">116.203.61.236</domain>
+    </domain-config>
+</network-security-config>
